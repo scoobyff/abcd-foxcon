@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 $get = $_GET['get'];
-$mpdUrl = 'https://dai.fancode.com/primary/' . $get;
+$mpdUrl = 'https://livetv.hotstar.com/mp2/gec-india-hotstartv' . $get;
 
 // Set headers for fetching remote
 $mpdheads = [
